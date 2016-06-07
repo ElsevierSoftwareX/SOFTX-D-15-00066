@@ -1,0 +1,42 @@
+Package: tgcd
+Type: Package
+Title: Thermoluminescence Glow Curve Deconvolution
+Version: 1.9
+Date: 2016-05-23
+Author: Jun Peng [aut, cre], 
+  Jorge More [ctb], 
+  Burton Garbow [ctb], 
+  Kenneth Hillstrom [ctb], 
+  John Burkardt [ctb], 
+  Linda R. Petzold [ctb], 
+  Alan C. Hindmarsh [ctb], 
+  R. Woodrow Setzer [ctb], 
+  Andrew Horchler [ctb]
+Maintainer: Jun Peng <pengjun10@mails.ucas.ac.cn>
+Authors@R: c(
+    person("Jun", "Peng", role = c("aut","cre"), email="pengjun10@mails.ucas.ac.cn"),
+    person("Jorge", "More", role = "ctb"), 
+    person("Burton", "Garbow", role = "ctb"), 
+    person("Kenneth", "Hillstrom", role = "ctb"),
+    person("John", "Burkardt", role = "ctb"),
+    person("Linda R.", "Petzold", role = "ctb"),
+    person("Alan C.", "Hindmarsh", role = "ctb"),
+    person("R. Woodrow", "Setzer", role = "ctb"),
+    person("Andrew", "Horchler", role = "ctb")
+    )
+Description: Deconvolving thermoluminescence glow curves according to the general-order 
+        empirical expression or the semi-analytical expression derived from the one trap-
+        one recombination (OTOR) model based on the Lambert's W function using a modified 
+        Levenberg-Marquardt algorithm. It provides the possibility of setting constraints 
+        or fixing any of parameters. It offers an interactive way to initialize parameters 
+        by clicking with a mouse on a plot at positions where peak maxima should be located. 
+        The optimal estimate is obtained by "trial-and-error". It also provides routines 
+        for simulating first-order, second-order, and general-order glow peaks (curves).
+License: GPL-2 | GPL-3
+Depends: R (>= 3.0.1)
+Imports: graphics, stats, utils
+URL: http://CRAN.R-project.org/package=tgcd
+Packaged: 2016-05-23 10:15:58 UTC; pengjun
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2016-05-23 12:42:54

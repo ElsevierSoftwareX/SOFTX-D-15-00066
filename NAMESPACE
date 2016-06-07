@@ -1,0 +1,10 @@
+useDynLib(tgcd)
+exportPattern("^[^\\.]")
+
+S3method(tgcd, default)
+S3method(simPeak, default)
+S3method(simqOTOR, default)
+
+importFrom(graphics, abline, axTicks, box, grid, layout, legend, locator, par, points)
+importFrom(stats, median, runif, approx)
+importFrom(utils, edit, write.csv)
